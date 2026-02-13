@@ -1570,7 +1570,7 @@ fn copy_source(
                         &src,
                         y,
                         &options.attributes,
-                        false,
+                        true,
                         #[cfg(unix)]
                         orig_umask,
                     )?;
